@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book a Day.</h1>
+        <form id="bookingForm">
+            <label for="day">Select a Day:</label>
+            <select id="day" name="day" required>
+                <option value="">Choose a day</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+            </select>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+<style>
+body {
+    font-family:  'Calibri', sans-serif, Helvetica ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(21, 21, 253);
+    color: whitesmoke;
+}
+
+.container {
+    background-color: rgb(21, 21, 253);
+    padding: 20px;
+    border-radius: 10px;
+   
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    width: px;
+    
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(21, 21, 253);
+    border-radius: 4px;
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: solid;
+    color: rgb(193, 188, 188);
+    background:  rgb(21, 21, 253);
+    cursor: pointer;
+    border-radius: 60px;
+    transition: 1s;
+    
+
+}
+ button:hover {
+    background: white;
+    color: rgb(21, 21, 253);;
+    opacity: 90%;
+
+    
+    
+
+ }
+
+
+</style>
+</html>
