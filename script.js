@@ -4,7 +4,7 @@ document.getElementById('bookingForm').addEventListener('submit', function(event
     const day = document.getElementById('day').value;
     const email = document.getElementById('email').value;
 
-    fetch('https://script.google.com/macros/s/AKfycbz11acDysJx3AI7-_FlQYd0ZG6mk8rZnFmlncIL4KJ5pZGBIyLX649MHj0SurMrsGsdyg/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbxRGJ1nFb7zfeH6SxcbuTYO84de84SBm-Vw3hHVACJbc-gAqJPt-bwEmbfgdfCxVx-MMQ/exec', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
