@@ -9,7 +9,7 @@ document.getElementById('bookingForm').addEventListener('submit', function(event
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         },
-        body: new URLSearchParams({ day, email })
+        body: new URLSearchParams({ day, email, time })
     })
     .then(response => response.text())
     .then(data => {
