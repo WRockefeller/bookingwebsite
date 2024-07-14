@@ -5,7 +5,7 @@ document.getElementById('bookingForm').addEventListener('submit', function(e) {
     var email = document.getElementById('email').value;
 
     if (day && email) {
-        fetch('https://script.google.com/macros/s/AKfycbzms4XY47V0QYR0Lwu90tBfTQo6JcITLby9yP-l8JUB84bPkNPQ35I7jDQ9JcW2J07N9w/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbznaDeaiRZq3WRrTL17qIMnEVuQh8L0O0bixsVoZJxAi3uLoufdJcfHPt4RthZ1YMtCrQ/exec', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
